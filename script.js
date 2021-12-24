@@ -9,10 +9,10 @@ let startGame = document.getElementsByClassName("start")[0];
 let displaySkorKen = document.getElementsByClassName("skor-ken")[0];
 let displaySkorPlayer = document.getElementsByClassName("skor-player")[0];
 
-let reset = document.getElementsById("reset");
-let baru = document.getElementsById("batu");
-let gunting = document.getElementsById("gunting");
-let kertas = document.getElementsById("kertas");
+let reset = document.getElementById("reset");
+let baru = document.getElementById("batu");
+let gunting = document.getElementById("gunting");
+let kertas = document.getElementById("kertas");
 
 if (localStorage.getItem("skorKen")) {
     skorKen = localStorage.getItem("skorKen");
